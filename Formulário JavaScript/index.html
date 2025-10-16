@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+</body>
+</html>
+<html lang="pt-BR">
+ 
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Registro Simples</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+ 
+<body>
+    <div class="card" class="organizacao">
+        <form id="formRegistro">
+            <label for="nome"></label>
+            <input type="text" id="nome" name="nome" req pattern="[A-Za-zÀ-ÿ ]+"
+            placeholder="Nome">
+ 
+                <label for="sobrenome"></label>
+                <input type="text" id="sobrenome" name="sobrenome" req pattern="[A-Za-zÀ-ÿ ]+"
+                placeholder="Sobrenome">
+ 
+                <label for="nome de Usuário"></label>
+                <input type="text" id="usuario" name="usuario" req pattern="[A-Za-zÀ-ÿ ]+"
+                placeholder="Nome de Usuário">
+ 
+                <label for="email"></label>
+                <input type="text" id="email" name="email" req pattern="[A-Za-zÀ-ÿ ]+"
+                placeholder="Email">
+           
+               <label for="senha"></label>
+               <input type="password" id="senha" name="senha" required placeholder="Senha">
+ 
+               <label for="senha"></label>
+               <input type="password" id="confirma" name="confirma" required placeholder=" Confirmacao de Senha">
+               <button type="submit" id="btnRegistrar" disabled>Registrar</button>
+        </form>
+ 
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+ 
+</html>
